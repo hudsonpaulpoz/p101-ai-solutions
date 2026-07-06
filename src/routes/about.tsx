@@ -150,6 +150,12 @@ const TEAM = [
     role: "Product Specialist",
     linkedin: "https://www.linkedin.com/in/reuel-philip/",
   },
+  {
+    initial: "+",
+    name: "Others",
+    role: "Technology · Design · Data · Security · DevOps · Growth",
+    linkedin: null as string | null,
+  },
 ];
 
 const absoluteLinkedInUrl = (url: string) => {
