@@ -82,7 +82,7 @@ function ConsultingPage() {
           <span className="text-foreground/55">not just in the demo.</span>
         </h1>
         <p className="mt-6 text-base text-foreground/70 max-w-2xl leading-relaxed">
-          P101's consulting arm develops highly scalable, resource-lean AI outcomes for teams that need software that actually operates. We deliver end-to-end on our own infrastructure stack and open-source private inference models — the same stack that runs DcernX.
+  P101's consulting arm develops highly scalable, resource-lean AI outcomes and custom software solutions for teams that need systems that actually operate. From POC and MVP to multi-location, multi-tenant enterprise deployments — self-scaling, resource-lean and secure. We deliver end-to-end on our own infrastructure stack and open-source private inference models — the same stack that runs DcernX.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a
