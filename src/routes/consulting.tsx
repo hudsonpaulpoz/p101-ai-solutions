@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowRight, Sparkles, Layers, Eye, LineChart } from "lucide-react";
+import { ArrowRight, Sparkles, Layers, Eye, LineChart, Code2 } from "lucide-react";
 import { Page, EyebrowLabel } from "@/components/SiteChrome";
 
 export const Route = createFileRoute("/consulting")({
@@ -9,13 +9,13 @@ export const Route = createFileRoute("/consulting")({
       {
         name: "description",
         content:
-          "P101's consulting arm delivers agentic, generative, computer vision and predictive AI systems — highly scalable and resource-lean, on our own infrastructure and open-source private inference models.",
+          "P101's consulting arm delivers agentic, generative, computer vision and predictive AI systems, plus custom software from POC to enterprise — highly scalable, resource-lean and secure, on our own infrastructure and open-source private inference models.",
       },
       { property: "og:title", content: "AI Consulting — P101 Limited" },
       {
         property: "og:description",
         content:
-          "Agentic, generative, computer vision and predictive AI — delivered on our own private-inference stack.",
+          "Agentic, generative, computer vision and predictive AI — plus custom solutions from MVP to multi-tenant enterprise — delivered on our own private-inference stack.",
       },
     ],
   }),

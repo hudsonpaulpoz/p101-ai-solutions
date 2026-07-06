@@ -68,10 +68,10 @@ function HomePage() {
           <span className="text-foreground/55">On our stack. On your terms.</span>
         </h1>
         <p className="mt-8 text-base md:text-lg text-foreground/70 max-w-2xl leading-relaxed">
-          We turn AI from a pilot into a production outcome — products, workflows and systems that run on our own infrastructure and open-source private inference. Through{" "}
+          We turn AI from a pilot into a production outcome — and build custom software from POC and MVP through to multi-location, multi-tenant enterprise systems. Everything runs on our own infrastructure and open-source private inference. Through{" "}
           <a href="https://dcernx.com" className="underline underline-offset-4 decoration-foreground/30 hover:decoration-foreground">DcernX</a>{" "}
           and <Link to="/ventures" hash="xylor" className="underline underline-offset-4 decoration-foreground/30 hover:decoration-foreground">Xylor</Link>
-          {" "}and our consulting practice, we deliver agentic, generative, computer vision and predictive AI that actually ships.
+          {" "}and our consulting practice, we deliver agentic, generative, computer vision and predictive AI — and serious custom solutions — that actually ship.
         </p>
         <div className="mt-10 flex flex-wrap gap-3">
           <Link
