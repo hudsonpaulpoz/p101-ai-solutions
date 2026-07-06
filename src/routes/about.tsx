@@ -28,7 +28,8 @@ function AboutPage() {
       <section className="max-w-3xl mx-auto px-6 pt-20 pb-16">
         <EyebrowLabel>About P101</EyebrowLabel>
         <h1 className="text-4xl md:text-6xl font-light tracking-tight leading-[1.05]">
-          A small UK company doing serious AI work.
+          Products that operate. Infrastructure we own.<br />
+          <span className="text-foreground/55">AI outcomes from proof of concept to enterprise.</span>
         </h1>
         <div className="mt-10 space-y-6 text-base text-foreground/75 leading-relaxed">
           <p>
