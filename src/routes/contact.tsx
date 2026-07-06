@@ -48,8 +48,8 @@ function ContactPage() {
             sub="dcernx.com"
             href="https://dcernx.com"
           />
-          <ContactCard icon={MapPin} label="UK office" value="Milton Keynes, United Kingdom" sub="P101 Limited · Company no. 17063831" />
-          <ContactCard icon={MapPin} label="US office" value="Sheridan, Wyoming, USA" sub="North America operations" />
+          <ContactCard icon={MapPin} label="UK office" value="Milton Keynes, United Kingdom" sub="P101 Limited" />
+          <ContactCard icon={MapPin} label="US office" value="Sheridan, Wyoming, USA" sub="P101 LLC" />
 
           <ContactCard
             icon={Mail}
