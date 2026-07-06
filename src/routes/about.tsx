@@ -33,7 +33,7 @@ function AboutPage() {
         </h1>
         <div className="mt-10 space-y-6 text-base text-foreground/75 leading-relaxed">
           <p>
-            We build software that operates — not proofs of concept — and deliver it on our own private-inference infrastructure. P101 Limited is registered in England &amp; Wales (company no. 17063831) and based in London.
+            We build software that operates — not proofs of concept — and deliver it on our own private-inference infrastructure.
           </p>
           <p>
             We own two products.{" "}
