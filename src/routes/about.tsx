@@ -45,7 +45,7 @@ function AboutPage() {
             is the AI operating layer for private-market investors. <Link to="/ventures" hash="xylor" className="underline underline-offset-4 decoration-foreground/30 hover:decoration-foreground">Xylor</Link> is the configurable embedded-AI platform underneath it — and behind every consulting engagement we run.
           </p>
           <p>
-            Our consulting arm develops highly scalable, resource-lean AI outcomes across agentic, generative, computer vision and primary predictive AI. We work with teams who need AI to be a system, not a slide.
+            Our consulting arm develops highly scalable, resource-lean AI outcomes and custom software solutions across agentic, generative, computer vision and primary predictive AI — from POC and MVP to multi-location, multi-tenant enterprise systems. We work with teams who need AI and software to be a system, not a slide.
           </p>
           <p>
             We take a small number of engagements at a time, chosen for fit. We build with open-source models on infrastructure we control. Your data doesn't train someone else's product.
@@ -59,7 +59,7 @@ function AboutPage() {
           <Fact k="Registered" v="England & Wales · Co. no. 17063831" />
           <Fact k="Based" v="London, United Kingdom" />
           <Fact k="Products" v="DcernX · Xylor" />
-          <Fact k="Consulting" v="Agentic · Generative · CV · Predictive" />
+          <Fact k="Consulting" v="Agentic · Generative · CV · Predictive · Custom solutions" />
           <Fact k="Stack" v="Private inference · Open-source models · Own infrastructure" />
         </div>
       </section>

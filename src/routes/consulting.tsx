@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowRight, Sparkles, Layers, Eye, LineChart } from "lucide-react";
+import { ArrowRight, Sparkles, Layers, Eye, LineChart, Code2 } from "lucide-react";
 import { Page, EyebrowLabel } from "@/components/SiteChrome";
 
 export const Route = createFileRoute("/consulting")({
@@ -9,13 +9,13 @@ export const Route = createFileRoute("/consulting")({
       {
         name: "description",
         content:
-          "P101's consulting arm delivers agentic, generative, computer vision and predictive AI systems — highly scalable and resource-lean, on our own infrastructure and open-source private inference models.",
+          "P101's consulting arm delivers agentic, generative, computer vision and predictive AI systems, plus custom software from POC to enterprise — highly scalable, resource-lean and secure, on our own infrastructure and open-source private inference models.",
       },
       { property: "og:title", content: "AI Consulting — P101 Limited" },
       {
         property: "og:description",
         content:
-          "Agentic, generative, computer vision and predictive AI — delivered on our own private-inference stack.",
+          "Agentic, generative, computer vision and predictive AI — plus custom solutions from MVP to multi-tenant enterprise — delivered on our own private-inference stack.",
       },
     ],
   }),
@@ -46,6 +46,12 @@ const DISCIPLINES = [
     title: "Primary predictive AI",
     body: "Classical and modern ML for scoring, forecasting, propensity and anomaly detection. The unglamorous models that quietly move the P&L.",
     examples: ["Risk scoring", "Demand forecasting", "Anomaly detection"],
+  },
+  {
+    icon: Code2,
+    title: "Custom solutions",
+    body: "From POC and MVP to multi-location, multi-tenant enterprise systems — self-scaling, resource-lean and secure by design. We build the platform, not just the model.",
+    examples: ["Enterprise platforms", "Multi-tenant SaaS", "Workflow systems"],
   },
 ];
 
@@ -82,7 +88,7 @@ function ConsultingPage() {
           <span className="text-foreground/55">not just in the demo.</span>
         </h1>
         <p className="mt-6 text-base text-foreground/70 max-w-2xl leading-relaxed">
-          P101's consulting arm develops highly scalable, resource-lean AI outcomes for teams that need software that actually operates. We deliver end-to-end on our own infrastructure stack and open-source private inference models — the same stack that runs DcernX.
+  P101's consulting arm develops highly scalable, resource-lean AI outcomes and custom software solutions for teams that need systems that actually operate. From POC and MVP to multi-location, multi-tenant enterprise deployments — self-scaling, resource-lean and secure. We deliver end-to-end on our own infrastructure stack and open-source private inference models — the same stack that runs DcernX.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <a
