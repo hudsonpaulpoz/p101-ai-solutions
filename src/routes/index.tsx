@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Products, private-inference infrastructure and consulting from London. Parent of DcernX and Xylor.",
+          "Products, private-inference infrastructure and consulting from the UK and USA. Parent of DcernX and Xylor.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
