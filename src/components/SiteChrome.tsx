@@ -66,12 +66,14 @@ export function SiteFooter() {
           ]}
         />
         <FooterCol
-          title="Contact"
+          title="Offices"
           items={[
+            { label: "Milton Keynes, UK", href: null },
+            { label: "Sheridan, WY, USA", href: null },
             { label: "hudson@p101limited.com", href: "mailto:hudson@p101limited.com" },
-            { label: "London, UK", href: null },
           ]}
         />
+
       </div>
       <div className="border-t border-border/40">
         <div className="max-w-5xl mx-auto px-6 py-4 text-[11px] text-foreground/45 flex justify-between">

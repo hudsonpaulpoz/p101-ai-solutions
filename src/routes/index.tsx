@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Products, private-inference infrastructure and consulting from London. Parent of DcernX and Xylor.",
+          "Products, private-inference infrastructure and consulting from the UK and USA. Parent of DcernX and Xylor.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -30,11 +30,19 @@ export const Route = createFileRoute("/")({
           url: "https://p101limited.com",
           email: "hudson@p101limited.com",
           foundingDate: "2025",
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: "London",
-            addressCountry: "GB",
-          },
+          address: [
+            {
+              "@type": "PostalAddress",
+              addressLocality: "Milton Keynes",
+              addressCountry: "GB",
+            },
+            {
+              "@type": "PostalAddress",
+              addressLocality: "Sheridan",
+              addressRegion: "WY",
+              addressCountry: "US",
+            },
+          ],
           identifier: "17063831",
           description:
             "Applied AI company building on private-inference infrastructure. Parent of DcernX and Xylor with a consulting arm delivering agentic, generative, computer vision and predictive AI, plus custom software from POC to enterprise.",
@@ -131,7 +139,7 @@ function HomePage() {
           </Link>
         </div>
         <div className="mt-6 text-[11px] text-foreground/45">
-          Registered in England &amp; Wales · Company no. 17063831 · London, UK
+          Registered in England &amp; Wales · Company no. 17063831 · Milton Keynes, UK · Sheridan, WY, USA
         </div>
       </section>
 
