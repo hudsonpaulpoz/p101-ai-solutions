@@ -27,6 +27,11 @@ const CAPABILITIES = [
     title: "Predictive AI",
     body: "Classical and modern ML for scoring, forecasting and anomaly detection — the boring wins that compound quietly.",
   },
+  {
+    icon: Code2,
+    title: "Custom solutions",
+    body: "From POC and MVP to multi-location, multi-tenant enterprise systems — self-scaling, resource-lean and secure by design.",
+  },
 ];
 
 const PRINCIPLES = [
