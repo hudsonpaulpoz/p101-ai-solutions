@@ -49,7 +49,7 @@ function AboutPage() {
             Our consulting arm develops highly scalable, resource-lean AI outcomes and custom software solutions across agentic, generative, computer vision and primary predictive AI — from POC and MVP to multi-location, multi-tenant enterprise systems. We work with teams who need AI and software to be a system, not a slide.
           </p>
           <p>
-            We take a small number of engagements at a time, chosen for fit. We build with open-source models on infrastructure we control. Your data doesn't train someone else's product.
+            We take on select engagements, chosen for fit. We build with open-source models on infrastructure we control. Your data doesn't train someone else's product.
           </p>
         </div>
       </section>
