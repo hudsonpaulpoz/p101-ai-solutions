@@ -30,11 +30,19 @@ export const Route = createFileRoute("/")({
           url: "https://p101limited.com",
           email: "hudson@p101limited.com",
           foundingDate: "2025",
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: "London",
-            addressCountry: "GB",
-          },
+          address: [
+            {
+              "@type": "PostalAddress",
+              addressLocality: "Milton Keynes",
+              addressCountry: "GB",
+            },
+            {
+              "@type": "PostalAddress",
+              addressLocality: "Sheridan",
+              addressRegion: "WY",
+              addressCountry: "US",
+            },
+          ],
           identifier: "17063831",
           description:
             "Applied AI company building on private-inference infrastructure. Parent of DcernX and Xylor with a consulting arm delivering agentic, generative, computer vision and predictive AI, plus custom software from POC to enterprise.",
