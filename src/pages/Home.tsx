@@ -376,3 +376,13 @@ function StackItem({
     </div>
   );
 }
+
+function Metric({ v, k }: { v: string; k: string }) {
+  return (
+    <div className="bg-background p-5">
+      <div className="text-2xl md:text-3xl font-light tracking-tight tabular-nums">{v}</div>
+      <div className="text-[11px] text-foreground/55 mt-1 leading-relaxed" dangerouslySetInnerHTML={{ __html: k }} />
+    </div>
+  );
+}
+
