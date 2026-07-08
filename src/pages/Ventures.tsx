@@ -10,7 +10,10 @@ export default function Ventures() {
         description="P101's two products: DcernX, the AI operating layer for private capital, and Xylor, our configurable embedded-AI platform for line-of-business applications."
         meta={[
           { property: "og:title", content: "Ventures — DcernX & Xylor | P101 Limited" },
-          { property: "og:description", content: "DcernX and Xylor — two products from P101 Limited." },
+          {
+            property: "og:description",
+            content: "DcernX and Xylor — two products from P101 Limited.",
+          },
         ]}
       />
       <Page>
@@ -20,7 +23,9 @@ export default function Ventures() {
             Two products, built on the same private-inference stack.
           </h1>
           <p className="mt-6 text-base text-foreground/70 max-w-2xl leading-relaxed">
-            P101 ships operating software, not demos. DcernX is our vertical product for private-market investors. Xylor is the horizontal platform underneath it — and behind every client engagement we run.
+            P101 ships operating software, not demos. DcernX is our vertical product for
+            private-market investors. Xylor is the horizontal platform underneath it — and behind
+            every client engagement we run.
           </p>
         </section>
 
@@ -30,13 +35,21 @@ export default function Ventures() {
               <EyebrowLabel>Product 01</EyebrowLabel>
               <div className="text-5xl font-light tracking-tight mb-4">DcernX</div>
               <div className="text-sm text-foreground/60 mb-6">Investor operating layer</div>
-              <a href="https://dcernx.com" target="_blank" rel="noopener noreferrer" className="h-10 px-5 inline-flex items-center gap-2 bg-foreground text-background text-sm hover:opacity-90">
+              <a
+                href="https://dcernx.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="h-10 px-5 inline-flex items-center gap-2 bg-foreground text-background text-sm hover:opacity-90"
+              >
                 Visit dcernx.com <ArrowRight className="h-3.5 w-3.5" />
               </a>
             </div>
             <div className="md:col-span-3">
               <p className="text-base text-foreground/75 leading-relaxed mb-6">
-                AI due diligence, deal flow management and IC-ready memos for VCs, family offices, PE, accelerators, venture studios, angels and startup programs. Structured intake, sixteen specialist agents, ~1,500 checkpoints per deal — a defensible record of every decision.
+                AI due diligence, deal flow management and IC-ready memos for VCs, family offices,
+                PE, accelerators, venture studios, angels and startup programs. Structured intake,
+                sixteen specialist agents, ~1,500 checkpoints per deal — a defensible record of
+                every decision.
               </p>
               <ul className="space-y-3 text-sm">
                 {[
@@ -60,14 +73,22 @@ export default function Ventures() {
             <div className="md:col-span-2">
               <EyebrowLabel>Product 02</EyebrowLabel>
               <div className="text-5xl font-light tracking-tight mb-4">Xylor</div>
-              <div className="text-sm text-foreground/60 mb-6">Configurable embedded-AI platform</div>
-              <a href="mailto:hudson@p101limited.com?subject=Xylor%20platform%20—%20request%20a%20walkthrough" className="h-10 px-5 inline-flex items-center gap-2 bg-foreground text-background text-sm hover:opacity-90">
+              <div className="text-sm text-foreground/60 mb-6">
+                Configurable embedded-AI platform
+              </div>
+              <a
+                href="mailto:hudson@p101limited.com?subject=Xylor%20platform%20—%20request%20a%20walkthrough"
+                className="h-10 px-5 inline-flex items-center gap-2 bg-foreground text-background text-sm hover:opacity-90"
+              >
                 Request a walkthrough <ArrowRight className="h-3.5 w-3.5" />
               </a>
             </div>
             <div className="md:col-span-3">
               <p className="text-base text-foreground/75 leading-relaxed mb-6">
-                Xylor is P101's technology and embedded-AI platform: a highly configurable substrate for building business applications with agents, retrieval, workflows, forms, review queues and audit trails as first-class primitives. It's what DcernX is built on — and what our consulting team ships client outcomes on.
+                Xylor is P101's technology and embedded-AI platform: a highly configurable substrate
+                for building business applications with agents, retrieval, workflows, forms, review
+                queues and audit trails as first-class primitives. It's what DcernX is built on —
+                and what our consulting team ships client outcomes on.
               </p>
               <ul className="space-y-3 text-sm">
                 {[
@@ -89,11 +110,17 @@ export default function Ventures() {
         <section className="border-t border-border/40">
           <div className="max-w-3xl mx-auto px-6 py-20 text-center">
             <EyebrowLabel>Build with us</EyebrowLabel>
-            <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-6">Have a product idea Xylor could carry?</h2>
+            <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-6">
+              Have a product idea Xylor could carry?
+            </h2>
             <p className="text-sm text-foreground/65 max-w-xl mx-auto mb-8">
-              Most of our client engagements ship on Xylor. If you have a workflow-heavy, AI-native product to build, we'd rather start there than from scratch.
+              Most of our client engagements ship on Xylor. If you have a workflow-heavy, AI-native
+              product to build, we'd rather start there than from scratch.
             </p>
-            <a href="mailto:hudson@p101limited.com" className="h-11 px-6 inline-flex items-center gap-2 bg-foreground text-background text-sm hover:opacity-90">
+            <a
+              href="mailto:hudson@p101limited.com"
+              className="h-11 px-6 inline-flex items-center gap-2 bg-foreground text-background text-sm hover:opacity-90"
+            >
               Talk to Hudson <ArrowRight className="h-3.5 w-3.5" />
             </a>
           </div>

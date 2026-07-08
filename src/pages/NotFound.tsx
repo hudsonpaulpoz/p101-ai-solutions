@@ -13,7 +13,10 @@ export default function NotFound() {
             The page you're looking for doesn't exist.
           </p>
           <div className="mt-6">
-            <Link to="/" className="inline-flex items-center justify-center bg-foreground px-4 py-2 text-sm font-medium text-background hover:opacity-90">
+            <Link
+              to="/"
+              className="inline-flex items-center justify-center bg-foreground px-4 py-2 text-sm font-medium text-background hover:opacity-90"
+            >
               Go home
             </Link>
           </div>

@@ -1,5 +1,14 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Cpu, Layers, Sparkles, ShieldCheck, Eye, LineChart, Code2 } from "lucide-react";
+import {
+  ArrowRight,
+  Cpu,
+  Layers,
+  Sparkles,
+  ShieldCheck,
+  Eye,
+  LineChart,
+  Code2,
+} from "lucide-react";
 import { Page, EyebrowLabel } from "@/components/SiteChrome";
 import { SEO } from "@/components/SEO";
 
@@ -32,10 +41,26 @@ const CAPABILITIES = [
 ];
 
 const PRINCIPLES = [
-  { n: "01", t: "Resource-lean by design", d: "We optimise for smaller models, cheaper inference and honest latency — not the biggest API bill in the room." },
-  { n: "02", t: "Private inference, always", d: "Open-source models on our own controlled infrastructure. Your data doesn't train someone else's product." },
-  { n: "03", t: "Evidence over vibes", d: "Every output is sourced, timestamped and reviewable. If it can't be audited, it doesn't ship." },
-  { n: "04", t: "Products, not decks", d: "We build things that operate — DcernX and Xylor are proof — and bring the same rigour to client engagements." },
+  {
+    n: "01",
+    t: "Resource-lean by design",
+    d: "We optimise for smaller models, cheaper inference and honest latency — not the biggest API bill in the room.",
+  },
+  {
+    n: "02",
+    t: "Private inference, always",
+    d: "Open-source models on our own controlled infrastructure. Your data doesn't train someone else's product.",
+  },
+  {
+    n: "03",
+    t: "Evidence over vibes",
+    d: "Every output is sourced, timestamped and reviewable. If it can't be audited, it doesn't ship.",
+  },
+  {
+    n: "04",
+    t: "Products, not decks",
+    d: "We build things that operate — DcernX and Xylor are proof — and bring the same rigour to client engagements.",
+  },
 ];
 
 export default function Home() {
@@ -45,8 +70,15 @@ export default function Home() {
         title="P101 Limited — Applied AI, private-inference infrastructure and custom software"
         description="P101 Limited builds production AI on our own private-inference stack. Parent of DcernX and Xylor, with a consulting arm delivering agentic, generative, computer vision and predictive AI — plus custom software from POC to multi-tenant enterprise."
         meta={[
-          { property: "og:title", content: "P101 Limited — Applied AI, infrastructure and custom software" },
-          { property: "og:description", content: "Products, private-inference infrastructure and consulting from the UK and USA. Parent of DcernX and Xylor." },
+          {
+            property: "og:title",
+            content: "P101 Limited — Applied AI, infrastructure and custom software",
+          },
+          {
+            property: "og:description",
+            content:
+              "Products, private-inference infrastructure and consulting from the UK and USA. Parent of DcernX and Xylor.",
+          },
           { property: "og:type", content: "website" },
           { name: "twitter:card", content: "summary_large_image" },
         ]}
@@ -59,7 +91,12 @@ export default function Home() {
           foundingDate: "2025",
           address: [
             { "@type": "PostalAddress", addressLocality: "Milton Keynes", addressCountry: "GB" },
-            { "@type": "PostalAddress", addressLocality: "Sheridan", addressRegion: "WY", addressCountry: "US" },
+            {
+              "@type": "PostalAddress",
+              addressLocality: "Sheridan",
+              addressRegion: "WY",
+              addressCountry: "US",
+            },
           ],
           identifier: "17063831",
           description:
@@ -74,15 +111,29 @@ export default function Home() {
         <section className="max-w-5xl mx-auto px-6 pt-24 pb-20">
           <EyebrowLabel>Applied AI · Infrastructure · Products · Consulting</EyebrowLabel>
           <h1 className="text-5xl md:text-7xl font-light tracking-tight leading-[1.02] max-w-4xl">
-            Serious AI, built lean.<br />
+            Serious AI, built lean.
+            <br />
             <span className="text-foreground/55">On our stack. On your terms.</span>
           </h1>
           <p className="mt-8 text-base md:text-lg text-foreground/70 max-w-2xl leading-relaxed">
-            We build AI that runs in production — and the custom software to scale it. Own infrastructure, open-source private inference, no lock-in. From first POC to multi-tenant enterprise.
-            Through{" "}
-            <a href="https://dcernx.com" className="underline underline-offset-4 decoration-foreground/30 hover:decoration-foreground">DcernX</a>{" "}
-            and <Link to="/ventures#xylor" className="underline underline-offset-4 decoration-foreground/30 hover:decoration-foreground">Xylor</Link>
-            , plus our consulting practice, we deliver agentic, generative, computer vision and predictive AI that actually ships.
+            We build AI that runs in production — and the custom software to scale it. Own
+            infrastructure, open-source private inference, no lock-in. From first POC to
+            multi-tenant enterprise. Through{" "}
+            <a
+              href="https://dcernx.com"
+              className="underline underline-offset-4 decoration-foreground/30 hover:decoration-foreground"
+            >
+              DcernX
+            </a>{" "}
+            and{" "}
+            <Link
+              to="/ventures#xylor"
+              className="underline underline-offset-4 decoration-foreground/30 hover:decoration-foreground"
+            >
+              Xylor
+            </Link>
+            , plus our consulting practice, we deliver agentic, generative, computer vision and
+            predictive AI that actually ships.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link
@@ -142,10 +193,12 @@ export default function Home() {
           <div className="max-w-5xl mx-auto px-6 py-20">
             <EyebrowLabel>Consulting capabilities</EyebrowLabel>
             <h2 className="text-3xl md:text-4xl font-light tracking-tight max-w-3xl mb-4">
-              Four AI disciplines. <span className="text-foreground/55">Plus the software around them.</span>
+              Four AI disciplines.{" "}
+              <span className="text-foreground/55">Plus the software around them.</span>
             </h2>
             <p className="text-sm text-foreground/65 max-w-2xl mb-10">
-              Highly scalable, resource-lean outcomes delivered end-to-end — from problem framing to production, on our own infrastructure stack.
+              Highly scalable, resource-lean outcomes delivered end-to-end — from problem framing to
+              production, on our own infrastructure stack.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-border/40">
               {CAPABILITIES.slice(0, 4).map((c) => {
@@ -166,7 +219,8 @@ export default function Home() {
                   <div className="text-sm font-medium">Custom solutions</div>
                 </div>
                 <div className="text-xs text-foreground/65 leading-relaxed flex-1">
-                  {CAPABILITIES[4].body} From proof of concept and MVP through to multi-tenant enterprise deployments — the systems the models live inside.
+                  {CAPABILITIES[4].body} From proof of concept and MVP through to multi-tenant
+                  enterprise deployments — the systems the models live inside.
                 </div>
               </div>
             </div>
@@ -207,7 +261,10 @@ export default function Home() {
                 We own the infrastructure the models run on.
               </h2>
               <p className="text-sm text-foreground/70 leading-relaxed">
-                P101 operates a private inference stack built around open-source foundation models, vector and graph stores, orchestration and observability. Everything we deliver — DcernX, Xylor and every consulting outcome — runs on it. That's how we keep costs honest, latency low, and your data yours.
+                P101 operates a private inference stack built around open-source foundation models,
+                vector and graph stores, orchestration and observability. Everything we deliver —
+                DcernX, Xylor and every consulting outcome — runs on it. That's how we keep costs
+                honest, latency low, and your data yours.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-px bg-border/40 self-start">
@@ -226,7 +283,8 @@ export default function Home() {
               Have a problem worth solving?
             </h2>
             <p className="text-sm text-foreground/65 max-w-xl mx-auto mb-10">
-              Whether it's a product to build, a workflow to automate or an AI system that actually needs to hold up in production — start a conversation.
+              Whether it's a product to build, a workflow to automate or an AI system that actually
+              needs to hold up in production — start a conversation.
             </p>
             <div className="flex justify-center gap-3 flex-wrap">
               <Link
@@ -273,13 +331,21 @@ function VentureCard({
     </div>
   );
   return external ? (
-    <a href={href} target="_blank" rel="noopener noreferrer">{inner}</a>
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      {inner}
+    </a>
   ) : (
     <Link to={href}>{inner}</Link>
   );
 }
 
-function StackItem({ icon: Icon, label }: { icon: React.ComponentType<{ className?: string }>; label: string }) {
+function StackItem({
+  icon: Icon,
+  label,
+}: {
+  icon: React.ComponentType<{ className?: string }>;
+  label: string;
+}) {
   return (
     <div className="bg-background p-5 flex items-center gap-3">
       <Icon className="h-4 w-4 text-foreground/60" />
