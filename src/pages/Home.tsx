@@ -167,7 +167,7 @@ export default function Home() {
           <div className="max-w-5xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-px bg-border/40">
             <Metric v="~12 min" k="Deck to IC-ready memo (DcernX)" />
             <Metric v="1,500+" k="Checkpoints reviewed per deal" />
-            <Metric v="2" k="Offices — UK &amp; USA" />
+            <Metric v="2" k="Offices — UK & USA" />
             <Metric v="0" k="Third parties trained on your data" />
           </div>
         </section>
@@ -381,7 +381,7 @@ function Metric({ v, k }: { v: string; k: string }) {
   return (
     <div className="bg-background p-5">
       <div className="text-2xl md:text-3xl font-light tracking-tight tabular-nums">{v}</div>
-      <div className="text-[11px] text-foreground/55 mt-1 leading-relaxed" dangerouslySetInnerHTML={{ __html: k }} />
+      <div className="text-[11px] text-foreground/55 mt-1 leading-relaxed">{k}</div>
     </div>
   );
 }
